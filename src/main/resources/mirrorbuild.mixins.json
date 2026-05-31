@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mirrorbuild.mod",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MirrorPlaceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

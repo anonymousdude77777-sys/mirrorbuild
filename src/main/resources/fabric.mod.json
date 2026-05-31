@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "mirrorbuild",
+  "version": "1.0.0",
+  "name": "Mirror Building Combat",
+  "description": "Two-player mirrored arena building minigame. Every block placed or broken is instantly mirrored to the opponent's side.",
+  "authors": ["MirrorBuild"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.mirrorbuild.mod.MirrorBuildMod"
+    ]
+  },
+  "mixins": [
+    "mirrorbuild.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": ">=0.102.0",
+    "minecraft": "~1.21.11"
+  }
+}
